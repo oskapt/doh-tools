@@ -59,8 +59,15 @@ monach.us. 7200 IN A 159.89.221.68
 ## Usage
 
 ```bash
-$ docker run --rm -it monachus/doh-tools:develop
+$ docker run --rm -it monachus/doh-tools
 Usage: doh-tools {client|server|stub|http-proxy} [options]
+```
+
+You can also get a shell:
+
+```bash
+$ docker run --rm -it monachus/doh-tools ash
+/usr/src/app #
 ```
 
 ## Certificates
